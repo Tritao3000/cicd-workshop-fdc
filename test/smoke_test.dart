@@ -28,7 +28,7 @@ void main() {
     // Go back to main menu.
     await tester.tap(find.text('Back'));
     await tester.pumpAndSettle();
-    //
+
     // Tap 'Play'.
     await tester.tap(find.text('Play'));
     await tester.pumpAndSettle();
