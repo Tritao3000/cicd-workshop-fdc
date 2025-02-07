@@ -28,8 +28,6 @@ jobs:
 
       # Configure Docker authentication for interacting with Artifact Registry, allowing you to push or pull Docker images securely.
       # Build the docker image and push top artifact registry.
-      - name: Check out repository code
-        uses: actions/checkout@v4
 
       # Popular community-maintained action used to set up Flutter in GitHub workflows.
       # Installs Flutter and allows you to run commands like flutter build, flutter test, and flutter analyze within your CI/CD pipeline.
